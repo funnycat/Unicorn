@@ -6,8 +6,10 @@
   <meta name="keywords" content="Emily Yang,Projects,Resume,Portfolio">
   <meta name="author" content="Emily Yang">
   <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="mystyle.css">
  </head>
  <body>
+  <section id=content>
   <nav>
    <ul>
     <li><a href="Home.html"><H1>Emily Yang</H1></a></li>
@@ -19,12 +21,13 @@
     <li><a href="races.html">Races</a></li>
    </ul>
   </nav>
-  <main>
-  <article>
+  <section id="main">
+  <article id="block">
     <H1>About Me</H1>
     <p>Hi, my name is Emily. This is the beginning of my website that will someday be really cool. Right now it is boring and only has dead links on it. When I am a unicorn, it will be awesome.</p>
+
   </article>
-  <section>
+  <section id="block">
     <H1>Help me get to know you</H1>
     <p>What is your name?
       <input placeholder="enter your name"></p>
@@ -34,16 +37,37 @@
       <input type="email" placeholder="Format: example@hotmail.com"></p>
       <p>What is your favorite color?
         <input type="color" value="#9900FF"></p>
-       <p>How awesome would you say you are?
-       <input type="range" min="1" max="1000000"></p>
+       <p>How awesome would you say you are?  1
+       <input type="range" min="1" max="1000000"> 1,000,000</p>
   </section>
-  </main>
+  </section>
+</section>
   <footer>
+    <section>
+  <div class="vcard">
+  <a class="url fn" href="http://www.emilyyang.com/"><h1>EmilyYang.com<h1></a>
+  <p>
+  <span class="tel">
+ <span class="type">Mobile</span>:
+ <span class="value">+1.425.503.2109</span>
+</span></p>
+<p>
+  <span>Email: 
+   <span class="email">emilymyang@gmail.com</span>
+  </span>
+</p>
+<p>
+  <span>
+  or <a class="url" href="http://twitter.com/emyang319">follow me on Twitter 
+(@<span class="nickname">emyang319</span>)</a>
+</span>
+</p>
+  </div>
+  </section>
     <p>Copyright ©
      <span itemprop="copyrightYear">2013</span>
      <span itemprop="copyrightHolder">My Company</span>
     </p>
-  <p><a href="contact.html">Contact Me</a></p>
  </footer>
  </body>
 </html>

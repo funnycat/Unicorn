@@ -1,0 +1,157 @@
+
+/* Makeshift CSS Reset */  
+{  
+    margin: 0;  
+    padding: 0;  
+}  
+
+article, aside, figure, footer, header, hgroup, menu, nav, section { display:block; }
+
+body {
+font-family: Ariel,  Helvetica, sans-serif;
+color:black;
+font-size: 14px;
+background: white;
+}
+
+#content {
+
+    display: table;
+    margin:0px;
+    padding:0px;
+
+}
+
+
+nav
+{
+    padding-top: 50px;
+display: table-cell;
+float: left;
+width: 40%;
+height: auto;
+text-align: right;
+background-color: white;
+
+}
+
+nav h1
+{
+    font-weight: lighter;
+    font-size: 28pt;
+    margin-bottom: 100px;
+}
+
+nav li 
+{
+list-style: none;
+margin: 20px;
+display: block;
+}
+
+nav li a 
+{
+text-decoration: none;
+color: black;
+}
+
+nav li a:hover 
+{
+    color: #585858;
+}
+
+nav ul
+{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+
+footer
+{
+    float:bottom;
+    width:100%;
+    font-size: 12pt;
+    text-align: center;
+    background: #282828;
+    padding: 50px;
+    color: #585858;
+}
+
+footer h1
+{
+    font-weight: lighter;
+    font-size: 16pt;
+    margin:5;
+}
+
+footer p
+{
+    margin:0;
+    font-size:12pt;
+}
+
+footer a
+{
+    color: #585858;
+    font-size: 12pt;
+    text-decoration: none;
+}
+
+#main
+{
+    display: table-cell;
+    width:59%;
+    float:left;
+    padding-top: 210px;
+    padding-bottom: 150px;
+    text-align: left;
+    background: url("images/trees_bg.png") repeat-x;
+    background-size: 100%;
+
+}
+
+#block
+{
+    margin: 20px;
+    padding: 20px;
+    width:60%;
+
+    /* Border-radius not implemented yet */
+    -moz-border-radius: 11px;
+    -webkit-border-radius: 11px;
+
+
+/* webkit example */
+background-image: -webkit-gradient(
+  linear, left top, left bottom, from(rgba(255,255,255,0.6)),
+  to(rgba(255,255,255,0.6)), color-stop(.5, rgba(255,255,255,0.8))
+);
+
+
+/* mozilla example - FF3.6+ */
+/*background-image: -moz-linear-gradient(
+  rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 95%
+);
+
+/* approximately a 33% opacity on blue */
+/*filter: progid:DXImageTransform.Microsoft.gradient(
+  startColorstr=#550000FF, endColorstr=#550000FF
+);
+
+/* IE8 uses -ms-filter for whatever reason... */
+/*-ms-filter: progid:DXImageTransform.Microsoft.gradient(
+  startColorstr=#550000FF, endColorstr=#550000FF
+);
+*/
+
+}
+
+#block h1
+{
+    font-size: 18pt;
+    font-weight: lighter;
+    margin:0px;
+}
+
