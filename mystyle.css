@@ -70,7 +70,7 @@ nav ul
 
 footer
 {
-    float:bottom;
+    float:right;
     width:100%;
     font-size: 12pt;
     text-align: center;
@@ -183,13 +183,13 @@ color: #282828;
 margin: 5px;
 }
 
-#block li.a
+#block li a
 {
 text-decoration: none;
 color: black;
 }
 
-#block li.a:hover
+#block li a.hover
 {
     color: #585858;
 }
