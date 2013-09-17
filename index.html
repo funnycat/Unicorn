@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <title>Emily Yang's Website</title>
+  <meta name="description" content="Emily Yang's personal website.">
+  <meta name="keywords" content="Emily Yang,Projects,Resume,Portfolio">
+  <meta name="author" content="Emily Yang">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="mystyle.css">
+ </head>
+ <body>
+  <section id="content">
+  <nav>
+   <ul>
+    <li><a href="#" onclick="changePage('home.html'); return false;"><H1>Emily Yang</H1></a></li>
+    <li><a href="#" onclick="changePage('resume.html'); return false;">Resume</a></li>
+    <li><a href="http://emilysasianescape.blogspot.com/">Blog</a></li>
+    <li><a href="projects.html">Code Projects</a></li>
+    <li><a href="http://www.tumblr.com/blog/emilysartportfolio">Design Porfolio</a></li>
+    <li><a href="photography.html">Photography</a></li>
+    <li><a href="music.html">Music</a></li>
+    <li><a href="races.html">Races</a></li>
+   </ul>
+  </nav>
+  <section id="main">
+     <article id="block">
+    <H1>About Me</H1>
+    <p>Hi, my name is Emily. This is the beginning of my website that will someday be really cool. Right now it is boring and only has dead links on it. When I am a unicorn, it will be awesome.</p>
+  </article>
+  </section>
+</section>
+  <footer>
+    <section>
+  <div class="vcard">
+  <a class="url fn" href="http://www.emilyyang.com/"><h1>EmilyYang.com<h1></a>
+  <p>
+  <span class="tel">
+ <span class="type">Mobile</span>:
+ <span class="value">+1.425.503.2109</span>
+</span></p>
+<p>
+  <span>Email: 
+   <span class="email">emilymyang@gmail.com</span>
+  </span>
+</p>
+<p>
+  <span>
+  or <a class="url" href="http://twitter.com/emyang319">follow me on Twitter 
+(@<span class="nickname">emyang319</span>)</a>
+</span>
+</p>
+  </div>
+  </section>
+    <p>Copyright ©
+     <span itemprop="copyrightYear">2013</span>
+     <span itemprop="copyrightHolder">My Company</span>
+    </p>
+ </footer>
+
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.5.1.min.js"></script>
+        <script type="text/javascript">
+
+          function changePage(newPage){
+           $(document).ready(function(){
+               $('#main').load(newPage);
+           });
+         }
+
+        </script> 
+
+ </body>
+</html>
